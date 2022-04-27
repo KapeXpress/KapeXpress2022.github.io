@@ -1,0 +1,82 @@
+.container {
+	border-style: solid;
+	width: 70%;
+	margin-left: 300px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.item {
+	border-style: solid;
+	border-color: gray;
+	background-color: whitesmoke;
+	width: 85%;
+	margin-left: 95px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.item img {
+	float: left;
+}
+
+
+.name {
+	font-family: Arial black;
+	float: left;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.price {
+	float: left;
+	margin-left: 150px;
+	font-family: arial;
+	color: gray;
+	text-align: center;
+}
+
+.qty {
+	float: left;
+	margin-left: 100px;
+	font-family: arial;
+	color: gray;
+	text-align: center;
+}
+
+.total {
+	float: left;
+	margin-left: 150px;
+	font-family: arial black;
+	color: black;
+	text-align: center;
+}
+
+
+.sum {
+	float: left;
+}
+.buttons {
+	float: left;
+	margin-bottom: 20px;
+}
+
+@media print {
+	/* Hide every other element*/
+	body * {
+		visibility: hidden;
+	}
+
+	/* Then displaying print container elements*/
+	.print-container, .print-container * {
+		visibility: visible;
+	}
+}
+
+.buttons {
+	margin-left: 600px;
+}

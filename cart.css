@@ -1,0 +1,29 @@
+a {
+	padding-left: 165px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.container {
+	border: solid;
+	background-color: whitesmoke;
+}
+
+.container1 {
+	border: solid;
+	background-color: #00FF00;
+}
+
+.container a {
+	margin-bottom: 20px;
+}
+
+.confirm {
+	max-width: 500px;
+  	margin-top: 300px;
+  	padding-left: 700px;
+}
+
+.body {
+	background-image: url(https://www.pngmagic.com/product_images/red-abstract-background-images-hd.jpg);
+}
