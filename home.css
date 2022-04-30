@@ -11,7 +11,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 17px;
 }
 
 /* Change the color of links on hover */
@@ -26,16 +26,12 @@
   color: white;
 }
 
+* {box-sizing:border-box}
 
-@font-face {
-  font-family: 'Brush Script MT';
-  src: url(fonts/brush script mt kursiv.ttf);
-}
 
 .banner {
-
   text-align: center;
-  font-family: 'Lobster Two', cursive;                                      
+  font-family: TAHOMA;
   font-size: 120px;
   color: white;
   border-style: solid;
@@ -57,14 +53,15 @@
   font-family: arial black;
 }
 
+
+
 .container {
   border-style: solid;
   width: 25%;
   background-color: #ec1c33;
   margin-top: 10px;
   float: left;
-  height: 2200px;
-  max-width: 25%;
+  height: 2000px;
   
 }
 
@@ -76,21 +73,15 @@
  
 }
 
-.container video {
-  max-width: 80%;
-}
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 900px;
-  min-width: 250px;
-  width: 900px;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  margin-left: 930px;
   margin-top: 10px;
-  margin-left: 300px;
-  
-  float: left;
 }
 
 /* Hide the images by default */
@@ -173,69 +164,199 @@
 }
 
 
+.line hr {
+  height: 2px;
+  margin-bottom: 100px;
+}
+
 .home {
-  max-width: 75%;
-  float: left;
-  margin-top: 200px;
+  width: 75%;
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 10px;
 }
 
 .home img {
+  width: 20%;
+  margin-top: 100px;
   float: left;
 }
 
 .intense {
-  float: left;
-  max-width: 70%;
-  margin-left: 20px;
-}
-
-.inf {
-  max-width: 70%;
+  margin-top: 50px;
   float: left;
 }
 
-.inf1 {
-  max-width: 25%;
-  margin-right: 25px;
-  margin-left: 50px;
-  float: left;
-  
-
+.intense h1 {
+  margin-top: 50px;
 }
 
-.home1 {
-  max-width: 70%;
+.intense p{
+  font-family: arial;
+  font-size: 15px;
   float: left;
-  margin-left: 80px;
 }
 
-.prod {
-  max-width: 25%;
-  margin-right: 25px;
-  margin-left: 50px;
+.made {
   float: left;
+  width: 20%;
 }
+
+.made h3 {
+  font-family: arial;
+}
+
+.made p {
+  font-family: arial;
+}
+
+.good {
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+}
+
+.good h3 {
+  font-family: arial;
+}
+
+.good p {
+  font-family: arial;
+}
+
+.flavor {
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+}
+
+.flavor h3 {
+  font-family: arial;
+}
+
+.flavor p {
+  font-family: arial;
+}
+
+
+.ice {
+  float: right;
+  width: 20%;
+  margin-bottom: 100px;
+  margin-right: 50px;
+}
+
+.ice h3 {
+  font-family: arial;
+}
+
+.ice p {
+  font-family: arial;
+  text-align: justify;
+}
+
+.mocha {
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+}
+
+.mocha h3 {
+  font-family: arial;
+}
+
+.mocha p {
+  font-family: arial;
+}
+
+.roast {
+  float: left;
+  margin-left: 70px;
+  width: 20%;
+  margin-right: ;
+}
+
+.roast h3 {
+  font-family: arial;
+}
+
+.roast p {
+  font-family: arial;
+}
+
+
+.line2 hr {
+  height: 2px;
+  margin-top: 100px;
+}
+
 
 .pictures {
-  max-width: 60%;
+  width: 75%;
   float: left;
-  margin-left: 200px;
-
+  margin-top: 20px;
 }
 
-.pic img {
-  max-width: 23%;
-  margin-right: 10px;
+.pic1 img {
   float: left;
-  
-  margin-bottom: 10px;
-  margin-left: 10px;
+  width: 20%;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 110px;
 }
 
-.nescafe img{
-  margin-left: 210px;
-  max-width: 820px;
+.pic2 img {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+  height: 200px;
 }
+
+.pic3 img {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+  height: 200px;
+}
+
+.pic4 img {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+  height: 200px;
+}
+
+.nescafe {
+  width: 75%;
+  float: left;
+  margin-top: 20px;
+}
+
+.nescafe img {
+  width: 84%;
+  margin-left: 110px;
+}
+
+.marquee p {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     text-align: center;
@@ -357,20 +478,5 @@
   margin-right: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-
-
-.user {
-  background-color: whitesmoke;
-  width: 80%;
-  margin-left: 40px;
-  
-}
-
-.user p {
-  font-size:40px;
-  text-align: center;
-  line-height: 5px;
 }
 

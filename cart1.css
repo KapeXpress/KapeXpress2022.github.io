@@ -1,4 +1,34 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-image: url(https://www.pngmagic.com/product_images/red-abstract-background-images-hd.jpg);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
 .container {
+	margin-top: 20px;
 	border-style: solid;
 	width: 70%;
 	margin-left: 300px;
@@ -79,4 +109,126 @@
 
 .buttons {
 	margin-left: 600px;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    border-style: solid;
+    background-color: #141414;
+    border-color: #141414;
+    color: white;
+    height: 120px;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+  }
+
+.tac {
+  float: left;
+  color: white;
+  margin-left: 200px;
+
+
+}
+
+.tac a {
+  color: white;
+}
+
+.p {
+  float: left;
+  color: white;
+  margin-left: 545px;
+  
+
+}
+
+.p a {
+  color: white;
+}
+
+.co {
+  float: right;
+  color: white;
+  margin-right: 245px;
+
+
+}
+
+.co a {
+  color: white;
+}
+
+.soc {
+   text-align: center;
+    padding: 3px;
+    border-style: solid;
+    background-color: #141414;
+    border-color: #141414;
+    color: white;
+    height: 60px;
+    float: left;
+    width: 100%;
+}
+
+.fb i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mg i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tw i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ig i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tk i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.yt i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

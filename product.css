@@ -11,7 +11,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
@@ -27,9 +27,10 @@
 }
 
 .product {
-  max-width: 80%;
+  max-width: 100%;
   margin-left: 240px;
   max-height: 5000px;
+  text-align: center;
 }
 
 .product h2 {
@@ -57,7 +58,7 @@
   font-family: arial;
   float: left;
   padding: 10px;
-  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   align-content: center;
@@ -88,8 +89,152 @@
   color: white;
 }
 
+
+.cart {
+  margin-bottom: 30px;
+}
 .cart img {
   width: 60px;
-  margin-left: 95%;
-  max-width: 80px;
+  max-width: 40px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 20px;
 }
+
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    border-style: solid;
+    background-color: #141414;
+    border-color: #141414;
+    color: white;
+    height: 120px;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+  }
+
+.tac {
+  float: left;
+  color: white;
+  margin-left: 200px;
+
+
+}
+
+.tac a {
+  color: white;
+}
+
+.p {
+  float: left;
+  color: white;
+  margin-left: 545px;
+  
+
+}
+
+.p a {
+  color: white;
+}
+
+.co {
+  float: right;
+  color: white;
+  margin-right: 245px;
+
+
+}
+
+.co a {
+  color: white;
+}
+
+.soc {
+   text-align: center;
+    padding: 3px;
+    border-style: solid;
+    background-color: #141414;
+    border-color: #141414;
+    color: white;
+    height: 60px;
+    float: left;
+    width: 100%;
+}
+
+.fb i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mg i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tw i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ig i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tk i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.yt i{
+  color: white;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
