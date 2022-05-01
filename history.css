@@ -317,6 +317,11 @@
 	float: left;
   max-width: 100%;
   min-width: 50%;
+  color: white;
+}
+
+.location a {
+  color: white;
 }
 
 .location iframe {

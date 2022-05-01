@@ -26,89 +26,40 @@
   color: white;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+} 
 
-.container {
-	margin-top: 20px;
-	border-style: solid;
-	width: 70%;
-	margin-left: 300px;
-	float: left;
-	margin-bottom: 20px;
+.order {
+  width: 80%;
+  border-style: solid;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20PX;
 }
 
-.container h1 {
-	text-align: center;
+.order h1 {
+  margin-left: 20px;
 }
 
-.item {
-	border-style: solid;
-	border-color: gray;
-	background-color: whitesmoke;
-	width: 85%;
-	margin-left: 95px;
-	margin-bottom: 10px;
-	float: left;
+.order p {
+  margin-left: 40px;
 }
 
-.item img {
-	float: left;
+.status {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-
-.name {
-	font-family: Arial black;
-	float: left;
-	font-size: 20px;
-	margin-top: 15px;
-}
-
-.price {
-	float: left;
-	margin-left: 150px;
-	font-family: arial;
-	color: gray;
-	text-align: center;
-}
-
-.qty {
-	float: left;
-	margin-left: 100px;
-	font-family: arial;
-	color: gray;
-	text-align: center;
-}
-
-.total {
-	float: left;
-	margin-left: 150px;
-	font-family: arial black;
-	color: black;
-	text-align: center;
-}
-
-
-.sum {
-	float: left;
-}
-.buttons {
-	float: left;
-	margin-bottom: 20px;
-}
-
-@media print {
-	/* Hide every other element*/
-	body * {
-		visibility: hidden;
-	}
-
-	/* Then displaying print container elements*/
-	.print-container, .print-container * {
-		visibility: visible;
-	}
-}
-
-.buttons {
-	margin-left: 600px;
+.status p {
+  font-family: arial;
 }
 
 .footer {
@@ -139,7 +90,7 @@
 .p {
   float: left;
   color: white;
-  margin-left: 650px;
+  margin-left: 545px;
   
 
 }
@@ -178,7 +129,7 @@
   height: 10px;
   float: left;
   margin-right: 40px;
-  margin-left: 910px;
+  margin-left: 800px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -231,23 +182,4 @@
   margin-right: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-
-.orders {
-	margin-top: 1500px;
-	padding: 50px;
-	text-align: center;
-	font-size: 40px;
-	
-	
-}
-
-.orders a {
-	color: #52381c;
-	padding: 10px;
-	border-style: solid;
-	border-radius: 15px;
-	border-color: #a19181;
-	background-color: #e3dbd3;
 }
