@@ -190,7 +190,7 @@
 
 
     <label for="lname">Mobile Number</label>
-    <input type="text" maxlength="10" pattern="\d{10}" placeholder="Mobile Number" title="Please remove the first 0 of your number" />
+    <input type="text" maxlength="10" pattern="\d{10}" placeholder="Mobile Number" title="Please enter 11 digit number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
 
     <label for="lname">Email</label>
     <input type="text" id="email" name="email" placeholder="Email" required>
